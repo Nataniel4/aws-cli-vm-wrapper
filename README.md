@@ -2,7 +2,11 @@
 Use the aws-cli from a VM (using SSH) in your host machine as if were locally installed.
 
 ## Installation
-Just add the files and folders from `Release` folder into the `/usr/local/bin` directory of you host system and set the ENV vars into your bash profile.
+
+### Requirements
+Install [vm-wrapper](https://github.com/Nataniel4/vm-wrapper)
+
+Then copy the files from `Release` folder into the `/usr/local/bin` directory of you host system and set the ENV vars into your bash profile (if needed).
 ```sh
 cp -r Release/. /usr/local/bin
 ```
