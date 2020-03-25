@@ -19,6 +19,3 @@ cp -r Release/. /usr/local/bin
 
 #### Supported commands
 - `aws`
-
-### Known issues
-- Nope (at the moment...)
